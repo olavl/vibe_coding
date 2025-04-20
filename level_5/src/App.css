@@ -1,0 +1,42 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.main-content {
+  display: flex;
+  border: 1px solid #ddd;
+  min-height: 800px;
+}
+
+.sidebar {
+  background-color: #f9f9f9;
+}
+
+.sidebar.left {
+  width: 200px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar.right {
+  width: 200px;
+  border-left: 1px solid #ddd;
+}
+
+.canvas-container {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}

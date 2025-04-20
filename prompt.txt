@@ -1,0 +1,1 @@
+Read the document(s) in the root folder and build this project. Do not stop before you confirm it is running correctly.     

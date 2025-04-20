@@ -1,0 +1,64 @@
+.properties-panel {
+  width: 200px;
+  padding: 10px;
+  border-left: 1px solid #ddd;
+}
+
+.empty-message {
+  color: #888;
+  font-style: italic;
+}
+
+.property {
+  margin-bottom: 15px;
+}
+
+.property label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.property select,
+.property input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.rotation-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rotation-buttons button {
+  width: 30px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.rotation-buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+.delete-button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 20px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #ff3333;
+}

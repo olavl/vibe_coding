@@ -1,0 +1,2 @@
+cd blockplan
+npm start

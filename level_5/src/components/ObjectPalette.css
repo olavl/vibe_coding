@@ -1,0 +1,46 @@
+.object-palette {
+  width: 200px;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.palette-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.palette-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: grab;
+  transition: background-color 0.2s;
+}
+
+.palette-item:hover {
+  background-color: #f5f5f5;
+}
+
+.palette-item.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.item-preview {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.item-label {
+  font-size: 14px;
+}
